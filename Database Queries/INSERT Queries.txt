@@ -1,0 +1,440 @@
+INSERT INTO PROGRAM (Program_ID, Program_Title, Program_Duration, Program_Description) 
+VALUES (1, 'Bachelors in Computer Science', '4 years', 'Programming, algorithms, systems, data analysis');
+
+INSERT INTO PROGRAM (Program_ID, Program_Title, Program_Duration, Program_Description) 
+VALUES (2, 'Bachelors in Multimedia', '3 years', 'Design, animation, creativity, media production');
+
+INSERT INTO PROGRAM (Program_ID, Program_Title, Program_Duration, Program_Description) 
+VALUES (3, 'Bachelors in Networking', '3 years', 'Connectivity, security, protocols, network management');
+
+INSERT INTO PROGRAM (Program_ID, Program_Title, Program_Duration, Program_Description) 
+VALUES (4, 'Bachelors in Computer Applications', '4 years', 'Connectivity, security, protocols, network management');
+
+
+
+
+INSERT INTO STUDENT (Student_ID, Student_Name, Student_Address, Student_Phone, Student_Email, Student_Date_Of_Birth, Student_Enrollment_Date, Program_ID)
+VALUES (2001, 'Barry Allen', 'Biratnagar', '9876567789', 'barryallen@gmail.com', DATE '2000-01-15', DATE '2022-02-01', 1);
+
+INSERT INTO STUDENT (Student_ID, Student_Name, Student_Address, Student_Phone, Student_Email, Student_Date_Of_Birth, Student_Enrollment_Date, Program_ID)
+VALUES (2002, 'Harvey Dent', 'Kathmandu', '9098970823', 'harveydent@gmail.com', DATE '1998-04-17', DATE '2023-06-02', 1);
+
+INSERT INTO STUDENT (Student_ID, Student_Name, Student_Address, Student_Phone, Student_Email, Student_Date_Of_Birth, Student_Enrollment_Date, Program_ID)
+VALUES (2003, 'Chir Mackey', 'Mahendranagar', '9098971823', 'chrismackey@gmail.com', DATE '1998-04-17', DATE '2023-06-02', 1);
+
+INSERT INTO STUDENT (Student_ID, Student_Name, Student_Address, Student_Phone, Student_Email, Student_Date_Of_Birth, Student_Enrollment_Date, Program_ID)
+VALUES (2004, 'Bruce Wayne', 'Birgunj', '9876543422', 'brucewayne@gmail.com', DATE '1999-11-18', DATE '2024-09-06', 2);
+
+INSERT INTO STUDENT (Student_ID, Student_Name, Student_Address, Student_Phone, Student_Email, Student_Date_Of_Birth, Student_Enrollment_Date, Program_ID)
+VALUES (2005, 'Tony Stark', 'Mahendranagar', '9773235623', 'tonystark@gmail.com', DATE '2001-04-11', DATE '2021-01-07', 2);
+
+INSERT INTO STUDENT (Student_ID, Student_Name, Student_Address, Student_Phone, Student_Email, Student_Date_Of_Birth, Student_Enrollment_Date, Program_ID)
+VALUES (2006, 'Damon Salvatore', 'Dhankuta', '9773235923', 'damonsalvatore@gmail.com', DATE '1997-04-11', DATE '2022-01-07', 2);
+
+INSERT INTO STUDENT (Student_ID, Student_Name, Student_Address, Student_Phone, Student_Email, Student_Date_Of_Birth, Student_Enrollment_Date, Program_ID)
+VALUES (2007, 'Chris Evans', 'Bhaktapur', '9865745335', 'chrisevans@gmail.com', DATE '2002-09-12', DATE '2020-12-12', 3);
+
+INSERT INTO STUDENT (Student_ID, Student_Name, Student_Address, Student_Phone, Student_Email, Student_Date_Of_Birth, Student_Enrollment_Date, Program_ID)
+VALUES (2008, 'Donna Paulsen', 'Pokhara', '9865444564', 'donnapaulsen@gmail.com', DATE '2000-07-15', DATE '2019-07-21', 3);
+
+INSERT INTO STUDENT (Student_ID, Student_Name, Student_Address, Student_Phone, Student_Email, Student_Date_Of_Birth, Student_Enrollment_Date, Program_ID)
+VALUES (2009, 'Louis Litt', 'Jomsom', '9865444464', 'louislitt@gmail.com', DATE '2000-07-19', DATE '2018-07-11', 3);
+
+INSERT INTO STUDENT (Student_ID, Student_Name, Student_Address, Student_Phone, Student_Email, Student_Date_Of_Birth, Student_Enrollment_Date, Program_ID)
+VALUES (2010, 'Rachel Zane', 'Ithari', '9733452344', 'rachelzane@gmail.com', DATE '2005-09-18', DATE '2018-09-11', 4);
+
+INSERT INTO STUDENT (Student_ID, Student_Name, Student_Address, Student_Phone, Student_Email, Student_Date_Of_Birth, Student_Enrollment_Date, Program_ID)
+VALUES (2011, 'Maggie Robin', 'Dharan', '9723178766', 'maggierobin@gmail.com', DATE '2002-11-15', DATE '2024-08-01', 4);
+
+INSERT INTO STUDENT (Student_ID, Student_Name, Student_Address, Student_Phone, Student_Email, Student_Date_Of_Birth, Student_Enrollment_Date, Program_ID)
+VALUES (2012, 'Elena Gilbert', 'Namche', '9723178768', 'elenagilbert@gmail.com', DATE '2001-12-15', DATE '2024-09-11', 4);
+
+
+
+INSERT INTO Module (Module_ID, Module_Title, Module_Credit_Hours, Module_Duration)
+VALUES (2001, 'Data Structures', 60, '6 Months');
+
+INSERT INTO Module (Module_ID, Module_Title, Module_Credit_Hours, Module_Duration)
+VALUES (2002, 'Operating Systems', 30, '6 Months');
+
+INSERT INTO Module (Module_ID, Module_Title, Module_Credit_Hours, Module_Duration)
+VALUES (2003, 'Graphic Design', 40, '6 Months');
+
+INSERT INTO Module (Module_ID, Module_Title, Module_Credit_Hours, Module_Duration)
+VALUES (2004, '3D Animation', 60, '6 Months');
+
+INSERT INTO Module (Module_ID, Module_Title, Module_Credit_Hours, Module_Duration)
+VALUES (2005, 'Network Administration', 60, '6 Months');
+
+INSERT INTO Module (Module_ID, Module_Title, Module_Credit_Hours, Module_Duration)
+VALUES (2006, 'Cybersecurity', 30, '6 Months');
+
+INSERT INTO Module (Module_ID, Module_Title, Module_Credit_Hours, Module_Duration)
+VALUES (2007, 'Web Application Development', 40, '6 Months');
+
+INSERT INTO Module (Module_ID, Module_Title, Module_Credit_Hours, Module_Duration)
+VALUES (2008, 'Mobile App Development', 60, '6 Months');
+
+INSERT INTO Module (Module_ID, Module_Title, Module_Credit_Hours, Module_Duration)
+VALUES (2009, 'Database', 30, '6 Months');
+
+
+
+INSERT INTO TEACHER (Teacher_ID, Teacher_Name, Teacher_Specialization, Teacher_Phone, Teacher_Email)
+VALUES (101, 'Prof. Henry Durard', 'Algorithms and Data Structures', '9087787898', 'henrydurard@gmail.com');
+
+INSERT INTO TEACHER (Teacher_ID, Teacher_Name, Teacher_Specialization, Teacher_Phone, Teacher_Email)
+VALUES (102, 'Dr. Alan Walker', 'Operating Systems and Compilers', '9877767865','alanwalker@gmail.com');
+
+INSERT INTO TEACHER (Teacher_ID, Teacher_Name, Teacher_Specialization, Teacher_Phone, Teacher_Email)
+VALUES (103, 'Harvey Specter', 'Graphic Design and Typography', '9023343445','harveyspecter@gmail.com');
+
+INSERT INTO TEACHER (Teacher_ID, Teacher_Name, Teacher_Specialization, Teacher_Phone, Teacher_Email)
+VALUES (104, 'Jessica Hardman', '3D Animation and Motion Graphics', '9777654665', 'jessicahardman@gmail.com');
+
+INSERT INTO TEACHER (Teacher_ID, Teacher_Name, Teacher_Specialization, Teacher_Phone, Teacher_Email)
+VALUES (105, 'Prof. Megan Monroe', 'Network Administration', '9087634323', 'melaniemonroe@gmail.com');
+
+INSERT INTO TEACHER (Teacher_ID, Teacher_Name, Teacher_Specialization, Teacher_Phone, Teacher_Email)
+VALUES (106, 'Chris Allen', 'Cybersecurity and Cryptography', '9876477864', 'chrisallen@gmail.com');
+
+INSERT INTO TEACHER (Teacher_ID, Teacher_Name, Teacher_Specialization, Teacher_Phone, Teacher_Email)
+VALUES (107, 'Barry Jensen', 'Web Application Development', '9988738843', 'barryjensen@gmail.com');
+
+INSERT INTO TEACHER (Teacher_ID, Teacher_Name, Teacher_Specialization, Teacher_Phone, Teacher_Email)
+VALUES (108, 'Dr. Manny Costa', 'Mobile Application Development', '9087666383', 'mannycosta@gmail.com');
+
+
+
+INSERT INTO PROGRAM_MODULE (Program_ID, Module_ID) VALUES (1, 2001); 
+
+INSERT INTO PROGRAM_MODULE (Program_ID, Module_ID) VALUES (1, 2002);
+
+INSERT INTO PROGRAM_MODULE (Program_ID, Module_ID) VALUES (1, 2009); 
+
+INSERT INTO PROGRAM_MODULE (Program_ID, Module_ID) VALUES (2, 2003);
+ 
+INSERT INTO PROGRAM_MODULE (Program_ID, Module_ID) VALUES (2, 2004);
+ 
+INSERT INTO PROGRAM_MODULE (Program_ID, Module_ID) VALUES (3, 2005); 
+
+INSERT INTO PROGRAM_MODULE (Program_ID, Module_ID) VALUES (3, 2006);
+
+INSERT INTO PROGRAM_MODULE (Program_ID, Module_ID) VALUES (4, 2007);
+
+INSERT INTO PROGRAM_MODULE (Program_ID, Module_ID) VALUES (4, 2008); 
+
+INSERT INTO PROGRAM_MODULE (Program_ID, Module_ID) VALUES (4, 2009); 
+
+
+
+INSERT INTO TEACHER_MODULE (Teacher_ID, Module_ID) VALUES (101, 2001);
+ 
+INSERT INTO Teacher_Module (Teacher_ID, Module_ID) VALUES (101, 2002); 
+
+INSERT INTO TEACHER_MODULE (Teacher_ID, Module_ID) VALUES (102, 2002); 
+
+INSERT INTO TEACHER_MODULE (Teacher_ID, Module_ID) VALUES (103, 2003); 
+
+INSERT INTO Teacher_Module (Teacher_ID, Module_ID) VALUES (103, 2004); 
+
+INSERT INTO TEACHER_MODULE (Teacher_ID, Module_ID) VALUES (104, 2004); 
+
+INSERT INTO TEACHER_MODULE (Teacher_ID, Module_ID) VALUES (105, 2005); 
+
+INSERT INTO Teacher_Module (Teacher_ID, Module_ID) VALUES (105, 2006);
+
+INSERT INTO TEACHER_MODULE (Teacher_ID, Module_ID) VALUES (106, 2006); 
+
+INSERT INTO TEACHER_MODULE (Teacher_ID, Module_ID) VALUES (107, 2007); 
+
+INSERT INTO TEACHER_MODULE (Teacher_ID, Module_ID) VALUES (108, 2008); 
+
+
+
+INSERT INTO ANNOUNCEMENT (Announcement_ID, Announcement_Title, Announcement_Description, Announcement_Post_Date, Module_ID, Teacher_ID)
+VALUES (1, 'Midterm Exam Announcement', 'The midterm exam for Data Structures is scheduled for 10th May 2025. Please prepare accordingly.', DATE '2025-04-15', 2001, 101);
+
+INSERT INTO ANNOUNCEMENT (Announcement_ID, Announcement_Title, Announcement_Description, Announcement_Post_Date, Module_ID, Teacher_ID)
+VALUES (2, 'Lab Test Reminder', 'The lab test for Operating Systems will be held on 20th April 2025. Make sure you complete the pre-lab work.', DATE '2025-04-10', 2002, 102);
+
+INSERT INTO ANNOUNCEMENT (Announcement_ID, Announcement_Title, Announcement_Description, Announcement_Post_Date, Module_ID, Teacher_ID)
+VALUES (3, 'Design Assignment Deadline', 'Submit your Graphic Design assignment by 5th May 2025. Late submissions will not be accepted.', DATE '2025-04-18', 2003, 103);
+
+INSERT INTO ANNOUNCEMENT (Announcement_ID, Announcement_Title, Announcement_Description, Announcement_Post_Date, Module_ID, Teacher_ID)
+VALUES (5, 'Network Configuration Lab Test', 'The Network Configuration Lab Test will take place on 25th April 2025. Please review your configuration settings.', DATE '2025-04-20', 2005, 105);
+
+INSERT INTO ANNOUNCEMENT (Announcement_ID, Announcement_Title, Announcement_Description, Announcement_Post_Date, Module_ID, Teacher_ID)
+VALUES (6, 'Final Exam Preparation', 'Prepare well for the final Cybersecurity exam on 10th June 2025. Review all topics covered in the course.', DATE '2025-05-30', 2006, 106);
+
+INSERT INTO ANNOUNCEMENT (Announcement_ID, Announcement_Title, Announcement_Description, Announcement_Post_Date, Module_ID, Teacher_ID)
+VALUES (7, 'Web Application Project Deadline', 'The final project for Web Application Development is due on 15th May 2025. Ensure all features are fully functional.', DATE '2025-05-01', 2007, 107);
+
+INSERT INTO ANNOUNCEMENT (Announcement_ID, Announcement_Title, Announcement_Description, Announcement_Post_Date, Module_ID, Teacher_ID)
+VALUES (8, 'Mobile App Final Exam', 'The Mobile App Development final exam will be held on 12th June 2025. Review all app development topics.', DATE '2025-05-25', 2008, 108);
+
+INSERT INTO ANNOUNCEMENT (Announcement_ID, Announcement_Title, Announcement_Description, Announcement_Post_Date, Module_ID, Teacher_ID)
+VALUES (17, 'Case Study Analysis', 'Prepare and submit your case study analysis.', DATE '2024-05-02', 2001, 101);
+
+INSERT INTO ANNOUNCEMENT (Announcement_ID, Announcement_Title, Announcement_Description, Announcement_Post_Date, Module_ID, Teacher_ID)
+VALUES (18, 'Mid-Term Presentation', 'Be ready to present your mid-term project.', DATE '2024-05-05', 2002, 102);
+
+INSERT INTO ANNOUNCEMENT (Announcement_ID, Announcement_Title, Announcement_Description, Announcement_Post_Date, Module_ID, Teacher_ID)
+VALUES (19, 'Group Coding Challenge', 'Participate in the group coding challenge.', DATE '2024-05-10', 2003, 103);
+
+INSERT INTO ANNOUNCEMENT (Announcement_ID, Announcement_Title, Announcement_Description, Announcement_Post_Date, Module_ID, Teacher_ID)
+VALUES (20, 'System Design Workshop', 'Attend the hands-on system design workshop.', DATE '2024-05-12', 2004, 104);
+
+INSERT INTO ANNOUNCEMENT (Announcement_ID, Announcement_Title, Announcement_Description, Announcement_Post_Date, Module_ID, Teacher_ID)
+VALUES (21, 'Data Analysis Report', 'Submit your data analysis report by this date.', DATE '2024-05-15', 2005, 105);
+
+INSERT INTO ANNOUNCEMENT (Announcement_ID, Announcement_Title, Announcement_Description, Announcement_Post_Date, Module_ID, Teacher_ID)
+VALUES (22, 'Interactive Media Showcase', 'Showcase your interactive media project.', DATE '2024-05-18', 2006, 106);
+
+INSERT INTO ANNOUNCEMENT (Announcement_ID, Announcement_Title, Announcement_Description, Announcement_Post_Date, Module_ID, Teacher_ID)
+VALUES (23, 'UX/UI Wireframe Design', 'Submit your UX/UI wireframe designs.', DATE '2024-05-20', 2007, 107);
+
+INSERT INTO ANNOUNCEMENT (Announcement_ID, Announcement_Title, Announcement_Description, Announcement_Post_Date, Module_ID, Teacher_ID)
+VALUES (24, 'AI Model Training Exercise', 'Participate in the AI model training exercise.', DATE '2024-05-25', 2008, 108);
+
+INSERT INTO ANNOUNCEMENT (Announcement_ID, Announcement_Title, Announcement_Description, Announcement_Post_Date, Module_ID, Teacher_ID)
+VALUES (25, 'Database Normalization Task', 'Complete the database normalization task.', DATE '2024-05-28', 2009, 104);
+
+
+
+INSERT INTO RESOURCES (Resource_ID, Resource_Title, Resource_Type, Resource_Status, Resource_Sequence, Module_ID)
+VALUES (1, 'Data Structures Textbook', 'Book', 'Completed', 1, 2001);
+
+INSERT INTO RESOURCES (Resource_ID, Resource_Title, Resource_Type, Resource_Status, Resource_Sequence, Module_ID)
+VALUES (2, 'Data Structures Online Lecture', 'Video', 'Upcoming', 2, 2001);
+
+INSERT INTO RESOURCES (Resource_ID, Resource_Title, Resource_Type, Resource_Status, Resource_Sequence, Module_ID)
+VALUES (3, 'Operating Systems Textbook', 'Book', 'Pending', 1, 2002);
+
+INSERT INTO RESOURCES (Resource_ID, Resource_Title, Resource_Type, Resource_Status, Resource_Sequence, Module_ID)
+VALUES (4, 'Operating Systems Lab Manual', 'Manual', 'Completed', 2, 2002);
+
+INSERT INTO RESOURCES (Resource_ID, Resource_Title, Resource_Type, Resource_Status, Resource_Sequence, Module_ID)
+VALUES (5, 'Graphic Design Software', 'Software', 'Pending', 1, 2003);
+
+INSERT INTO RESOURCES (Resource_ID, Resource_Title, Resource_Type, Resource_Status, Resource_Sequence, Module_ID)
+VALUES (6, 'Graphic Design Online Tutorials', 'Video', 'Completed', 2, 2003);
+
+INSERT INTO RESOURCES (Resource_ID, Resource_Title, Resource_Type, Resource_Status, Resource_Sequence, Module_ID)
+VALUES (7, '3D Animation Book', 'Book', 'Upcoming', 1, 2004);
+
+INSERT INTO RESOURCES (Resource_ID, Resource_Title, Resource_Type, Resource_Status, Resource_Sequence, Module_ID)
+VALUES (8, '3D Animation Practice Project', 'Project', 'Pending', 2, 2004);
+
+INSERT INTO RESOURCES (Resource_ID, Resource_Title, Resource_Type, Resource_Status, Resource_Sequence, Module_ID)
+VALUES (9, 'Network Administration Guide', 'Book', 'Completed', 1, 2005);
+
+INSERT INTO RESOURCES (Resource_ID, Resource_Title, Resource_Type, Resource_Status, Resource_Sequence, Module_ID)
+VALUES (10, 'Network Configuration Lab', 'Lab', 'Upcoming', 2, 2005);
+
+INSERT INTO RESOURCES (Resource_ID, Resource_Title, Resource_Type, Resource_Status, Resource_Sequence, Module_ID)
+VALUES (11, 'Cybersecurity Principles Textbook', 'Book', 'Completed', 1, 2006);
+
+INSERT INTO RESOURCES (Resource_ID, Resource_Title, Resource_Type, Resource_Status, Resource_Sequence, Module_ID)
+VALUES (12, 'Cybersecurity Online Course', 'Video', 'Pending', 2, 2006);
+
+INSERT INTO RESOURCES (Resource_ID, Resource_Title, Resource_Type, Resource_Status, Resource_Sequence, Module_ID)
+VALUES (13, 'Web App Development Framework', 'Software', 'Completed', 1, 2007);
+
+INSERT INTO RESOURCES (Resource_ID, Resource_Title, Resource_Type, Resource_Status, Resource_Sequence, Module_ID)
+VALUES (14, 'Web Application Tutorial', 'Video', 'Upcoming', 2, 2007);
+
+INSERT INTO RESOURCES (Resource_ID, Resource_Title, Resource_Type, Resource_Status, Resource_Sequence, Module_ID)
+VALUES (15, 'Mobile App Development SDK', 'Software', 'Pending', 1, 2008);
+
+INSERT INTO RESOURCES (Resource_ID, Resource_Title, Resource_Type, Resource_Status, Resource_Sequence, Module_ID)
+VALUES (16, 'Mobile App Development Workshop', 'Workshop', 'Completed', 2, 2008);
+
+INSERT INTO RESOURCES (RESOURCE_ID, RESOURCE_TITLE, RESOURCE_TYPE, RESOURCE_STATUS, RESOURCE_SEQUENCE, MODULE_ID)
+VALUES (17, 'Database Management Systems Textbook', 'Book', 'Completed', 1, 2009);
+
+INSERT INTO RESOURCES (RESOURCE_ID, RESOURCE_TITLE, RESOURCE_TYPE, RESOURCE_STATUS, RESOURCE_SEQUENCE, MODULE_ID)
+VALUES (18, 'Database Design Online Lecture', 'Video', 'Upcoming', 2, 2009);
+
+INSERT INTO RESOURCES (RESOURCE_ID, RESOURCE_TITLE, RESOURCE_TYPE, RESOURCE_STATUS, RESOURCE_SEQUENCE, MODULE_ID)
+VALUES (19, 'SQL Programming Guide', 'Manual', 'Pending', 1, 2009);
+
+INSERT INTO RESOURCES (RESOURCE_ID, RESOURCE_TITLE, RESOURCE_TYPE, RESOURCE_STATUS, RESOURCE_SEQUENCE, MODULE_ID)
+VALUES (20, 'Database Normalization Tutorial', 'Video', 'Completed', 2, 2009);
+
+
+
+INSERT INTO ASSESSMENT (Assessment_ID, Assessment_Title, Assessment_Deadline, Assessment_Weightage, Assessment_Type, Module_ID)
+VALUES (1, 'Mid-term Exam', DATE '2025-05-15', '40%', 'Exam', 2001);
+
+INSERT INTO ASSESSMENT (Assessment_ID, Assessment_Title, Assessment_Deadline, Assessment_Weightage, Assessment_Type, Module_ID)
+VALUES (2, 'Final Project', DATE '2025-06-10', '60%', 'Project', 2001);
+
+INSERT INTO ASSESSMENT (Assessment_ID, Assessment_Title, Assessment_Deadline, Assessment_Weightage, Assessment_Type, Module_ID)
+VALUES (3, 'Lab Test', DATE '2025-04-20', '50%', 'Practical', 2002);
+
+INSERT INTO ASSESSMENT (Assessment_ID, Assessment_Title, Assessment_Deadline, Assessment_Weightage, Assessment_Type, Module_ID)
+VALUES (4, 'Theory Exam', DATE '2025-06-05', '50%', 'Exam', 2002);
+
+INSERT INTO ASSESSMENT (Assessment_ID, Assessment_Title, Assessment_Deadline, Assessment_Weightage, Assessment_Type, Module_ID)
+VALUES (5, 'Design Assignment', DATE '2025-05-10', '40%', 'Assignment', 2003);
+
+INSERT INTO ASSESSMENT (Assessment_ID, Assessment_Title, Assessment_Deadline, Assessment_Weightage, Assessment_Type, Module_ID)
+VALUES (6, 'Final Design Portfolio', DATE '2025-06-12', '60%', 'Project', 2003);
+
+INSERT INTO ASSESSMENT (Assessment_ID, Assessment_Title, Assessment_Deadline, Assessment_Weightage, Assessment_Type, Module_ID)
+VALUES (7, 'Animation Project', DATE '2025-05-20', '50%', 'Project', 2004);
+
+INSERT INTO ASSESSMENT (Assessment_ID, Assessment_Title, Assessment_Deadline, Assessment_Weightage, Assessment_Type, Module_ID)
+VALUES (8, 'Final Animation Presentation', DATE '2025-06-15', '50%', 'Presentation', 2004);
+
+INSERT INTO ASSESSMENT (Assessment_ID, Assessment_Title, Assessment_Deadline, Assessment_Weightage, Assessment_Type, Module_ID)
+VALUES (9, 'Network Configuration Lab', DATE '2025-04-25', '50%', 'Practical', 2005);
+
+INSERT INTO ASSESSMENT (Assessment_ID, Assessment_Title, Assessment_Deadline, Assessment_Weightage, Assessment_Type, Module_ID)
+VALUES (10, 'Network Security Test', DATE '2025-06-01', '50%', 'Exam', 2005);
+
+INSERT INTO ASSESSMENT (Assessment_ID, Assessment_Title, Assessment_Deadline, Assessment_Weightage, Assessment_Type, Module_ID)
+VALUES (11, 'Cybersecurity Quiz', DATE '2025-05-05', '40%', 'Quiz', 2006);
+
+INSERT INTO ASSESSMENT (Assessment_ID, Assessment_Title, Assessment_Deadline, Assessment_Weightage, Assessment_Type, Module_ID)
+VALUES (12, 'Final Cybersecurity Exam', DATE '2025-06-10', '60%', 'Exam', 2006);
+
+INSERT INTO ASSESSMENT (Assessment_ID, Assessment_Title, Assessment_Deadline, Assessment_Weightage, Assessment_Type, Module_ID)
+VALUES (13, 'Website Project', DATE '2025-05-15', '50%', 'Project', 2007);
+
+INSERT INTO ASSESSMENT (Assessment_ID, Assessment_Title, Assessment_Deadline, Assessment_Weightage, Assessment_Type, Module_ID)
+VALUES (14, 'Final Web Application Exam', DATE '2025-06-12', '50%', 'Exam', 2007);
+
+INSERT INTO ASSESSMENT (Assessment_ID, Assessment_Title, Assessment_Deadline, Assessment_Weightage, Assessment_Type, Module_ID)
+VALUES (15, 'App Prototype Project', DATE '2025-05-18', '50%', 'Project', 2008);
+
+INSERT INTO ASSESSMENT (Assessment_ID, Assessment_Title, Assessment_Deadline, Assessment_Weightage, Assessment_Type, Module_ID)
+VALUES (16, 'Mobile App Final Exam', DATE '2025-06-15', '50%', 'Exam', 2008);
+
+INSERT INTO ASSESSMENT (Assessment_ID, Assessment_Title, Assessment_Deadline, Assessment_Weightage, Assessment_Type, Module_ID)
+VALUES (17, 'Database Mid-term Exam', DATE '2025-05-10', '40%', 'Exam', 2009);
+
+INSERT INTO ASSESSMENT (Assessment_ID, Assessment_Title, Assessment_Deadline, Assessment_Weightage, Assessment_Type, Module_ID)
+VALUES (18, 'Database Final Project', DATE '2025-06-20', '60%', 'Project', 2009);
+
+
+INSERT INTO RESULT (Result_ID, Result_Grade, Result_Marks, Result_Status, Result_Feedback, Student_ID, Assessment_ID)
+VALUES (27, 'A', 80, 'Pass', 'Outstanding performance on the Data Structures exam.', 2001, 1);
+
+INSERT INTO RESULT (Result_ID, Result_Grade, Result_Marks, Result_Status, Result_Feedback, Student_ID, Assessment_ID)
+VALUES (28, 'A+', 90, 'Pass', 'Excellent results in Operating Systems final project.', 2002, 2);
+
+INSERT INTO RESULT (Result_ID, Result_Grade, Result_Marks, Result_Status, Result_Feedback, Student_ID, Assessment_ID)
+VALUES (29, 'A', 85, 'Pass', 'Great results in Web Application Development lab test.', 2003, 7);
+
+INSERT INTO RESULT (Result_ID, Result_Grade, Result_Marks, Result_Status, Result_Feedback, Student_ID, Assessment_ID)
+VALUES (30, 'A-', 75, 'Pass', 'Excellent submission on 3D Animation project.', 2004, 4);
+
+INSERT INTO RESULT (Result_ID, Result_Grade, Result_Marks, Result_Status, Result_Feedback, Student_ID, Assessment_ID)
+VALUES (31, 'B', 60, 'Pass', 'Good performance in Network Administration assessment.', 2005, 5);
+
+INSERT INTO RESULT (Result_ID, Result_Grade, Result_Marks, Result_Status, Result_Feedback, Student_ID, Assessment_ID)
+VALUES (32, 'B+', 65, 'Pass', 'Decent results in Graphic Design assignment.', 2006, 3);
+
+INSERT INTO RESULT (Result_ID, Result_Grade, Result_Marks, Result_Status, Result_Feedback, Student_ID, Assessment_ID)
+VALUES (33, 'B', 50, 'Pass', 'Completed Cybersecurity quiz with good understanding.', 2007, 6);
+
+INSERT INTO RESULT (Result_ID, Result_Grade, Result_Marks, Result_Status, Result_Feedback, Student_ID, Assessment_ID)
+VALUES (34, 'B-', 55, 'Pass', 'Mobile App Development exam performance was fair.', 2008, 8);
+
+INSERT INTO RESULT (Result_ID, Result_Grade, Result_Marks, Result_Status, Result_Feedback, Student_ID, Assessment_ID)
+VALUES (35, 'F', 30, 'Fail', 'Failed to meet requirements for the Database project.', 2001, 9);
+
+INSERT INTO RESULT (Result_ID, Result_Grade, Result_Marks, Result_Status, Result_Feedback, Student_ID, Assessment_ID)
+VALUES (36, 'F', 28, 'Fail', 'Failed Operating Systems theory exam due to lack of preparation.', 2002, 4);
+
+INSERT INTO RESULT (Result_ID, Result_Grade, Result_Marks, Result_Status, Result_Feedback, Student_ID, Assessment_ID)
+VALUES (37, 'F', 35, 'Fail', 'Failed to submit assignment in Web Application Development.', 2003, 7);
+
+INSERT INTO RESULT (Result_ID, Result_Grade, Result_Marks, Result_Status, Result_Feedback, Student_ID, Assessment_ID)
+VALUES (38, 'F', 30, 'Fail', 'Failed final exam in Network Administration due to lack of practice.', 2004, 5);
+
+INSERT INTO RESULT (Result_ID, Result_Grade, Result_Marks, Result_Status, Result_Feedback, Student_ID, Assessment_ID)
+VALUES (39, 'F', 25, 'Fail', 'Poor performance in Graphic Design final exam.', 2005, 3);
+
+INSERT INTO RESULT (Result_ID, Result_Grade, Result_Marks, Result_Status, Result_Feedback, Student_ID, Assessment_ID)
+VALUES (40, 'F', 37, 'Fail', 'Failed to achieve necessary marks in Cybersecurity final exam.', 2006, 6);
+
+INSERT INTO RESULT (Result_ID, Result_Grade, Result_Marks, Result_Status, Result_Feedback, Student_ID, Assessment_ID)
+VALUES (41, 'F', 33, 'Fail', 'Presentation for 3D Animation module lacked required detail.', 2007, 4);
+
+INSERT INTO RESULT (Result_ID, Result_Grade, Result_Marks, Result_Status, Result_Feedback, Student_ID, Assessment_ID)
+VALUES (42, 'F', 29, 'Fail', 'Poor performance in Mobile App Development final exam.', 2008, 8);
+
+INSERT INTO RESULT (Result_ID, Result_Grade, Result_Marks, Result_Status, Result_Feedback, Student_ID, Assessment_ID)
+VALUES (43, 'A+', 95, 'Pass', 'Excellent results in the Database exam.', 2001, 9);
+
+INSERT INTO RESULT (Result_ID, Result_Grade, Result_Marks, Result_Status, Result_Feedback, Student_ID, Assessment_ID)
+VALUES (44, 'A', 85, 'Pass', 'Outstanding performance in the Database project.', 2002, 9);
+
+INSERT INTO RESULT (Result_ID, Result_Grade, Result_Marks, Result_Status, Result_Feedback, Student_ID, Assessment_ID)
+VALUES (51, 'A', 80, 'Pass', 'Good performance on the Database Mid-term Exam.', 2001, 17);
+
+INSERT INTO RESULT (Result_ID, Result_Grade, Result_Marks, Result_Status, Result_Feedback, Student_ID, Assessment_ID)
+VALUES (52, 'B', 60, 'Pass', 'Satisfactory performance on the Database Mid-term Exam.', 2002, 17);
+
+INSERT INTO RESULT (Result_ID, Result_Grade, Result_Marks, Result_Status, Result_Feedback, Student_ID, Assessment_ID)
+VALUES (53, 'C', 40, 'Fail', 'Failed to meet expectations in the Database Mid-term Exam.', 2003, 17);
+
+INSERT INTO RESULT (Result_ID, Result_Grade, Result_Marks, Result_Status, Result_Feedback, Student_ID, Assessment_ID)
+VALUES (54, 'F', 20, 'Fail', 'Failed the Database Mid-term Exam due to lack of preparation.', 2004, 17);
+
+INSERT INTO RESULT (Result_ID, Result_Grade, Result_Marks, Result_Status, Result_Feedback, Student_ID, Assessment_ID)
+VALUES (55, 'A', 90, 'Pass', 'Excellent performance on the Database Final Project.', 2001, 18);
+
+INSERT INTO RESULT (Result_ID, Result_Grade, Result_Marks, Result_Status, Result_Feedback, Student_ID, Assessment_ID)
+VALUES (56, 'B', 70, 'Pass', 'Good performance on the Database Final Project.', 2002, 18);
+
+INSERT INTO RESULT (Result_ID, Result_Grade, Result_Marks, Result_Status, Result_Feedback, Student_ID, Assessment_ID)
+VALUES (57, 'C', 50, 'Fail', 'Did not meet requirements for the Database Final Project.', 2003, 18);
+
+INSERT INTO RESULT (Result_ID, Result_Grade, Result_Marks, Result_Status, Result_Feedback, Student_ID, Assessment_ID)
+VALUES (58, 'F', 30, 'Fail', 'Failed the Database Final Project due to incomplete work.', 2004, 18);
+
+
+
+INSERT INTO ASSESSMENT_RESULT (Student_ID, Assessment_ID, Result_ID)
+VALUES (2001, 1, 27);
+
+INSERT INTO ASSESSMENT_RESULT (Student_ID, Assessment_ID, Result_ID)
+VALUES (2002, 2, 28);
+
+INSERT INTO ASSESSMENT_RESULT (Student_ID, Assessment_ID, Result_ID)
+VALUES (2003, 7, 29);
+
+INSERT INTO ASSESSMENT_RESULT (Student_ID, Assessment_ID, Result_ID)
+VALUES (2004, 4, 30);
+
+INSERT INTO ASSESSMENT_RESULT (Student_ID, Assessment_ID, Result_ID)
+VALUES (2005, 5, 31);
+
+INSERT INTO ASSESSMENT_RESULT (Student_ID, Assessment_ID, Result_ID)
+VALUES (2006, 3, 32);
+
+INSERT INTO ASSESSMENT_RESULT (Student_ID, Assessment_ID, Result_ID)
+VALUES (2007, 6, 33);
+
+INSERT INTO ASSESSMENT_RESULT (Student_ID, Assessment_ID, Result_ID)
+VALUES (2008, 8, 34);
+
+INSERT INTO ASSESSMENT_RESULT (Student_ID, Assessment_ID, Result_ID)
+VALUES (2009, 9, 35);
+
+INSERT INTO ASSESSMENT_RESULT (Student_ID, Assessment_ID, Result_ID)
+VALUES (2010, 4, 36);
+
+INSERT INTO ASSESSMENT_RESULT (Student_ID, Assessment_ID, Result_ID)
+VALUES (2011, 7, 37);
+
+INSERT INTO ASSESSMENT_RESULT (Student_ID, Assessment_ID, Result_ID)
+VALUES (2012, 5, 38);
+
+
+
+
